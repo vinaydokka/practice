@@ -1,94 +1,100 @@
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Playfair Display', serif;
-    }
-    
-    html,
-    body {
-        height: 100%;
-    }
-    
-    .container {
-        padding: 17px 15px 23px 28px;
-        background-color: #fff;
-        border: 1px solid black;
-    }
-    
-    h2 {
-        font-size: 20px;
-        color: #808080;
-        padding: 5px 10px 10px 10px;
-        font-weight: 400;
-        font-family: 'Roboto Condensed', sans-serif;
-    }
-    
-    h6 {
-        border-bottom: 2px dashed #808080;
-    }
-    
-    .heading h1 {
-        font-size: 57px;
-        letter-spacing: 1px;
-        margin: 10px 0px 10px 0px;
-        padding: 5px 0px 2px 5px;
-        font-weight: 500;
-        column-span: all;
-    }
-    
-    .newspaper {
-        column-count: 4;
-        column-gap: 30px;
-        column-rule-style: solid;
-        column-rule-color: #808080;
-        text-align: justify;
-        font-size: 14px;
-    }
-    
-    b {
-        border-top: 4px solid#fc944e;
-        font-size: 11px;
-        padding-left: 2px;
-        display: inline-flex;
-    }
-    
-    b .fa {
-        color: #fc944e;
-    }
-    
-    h3 {
-        font-size: 28px;
-        color: #fc944e;
-        font-style: italic;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-family: 'Lemonada', cursive;
-        padding: 0px 10px 10px 10px;
-    }
-    
-    .custem-name {
-        color: #424242;
-        font-size: 14px;
-        font-family: monospace;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        margin-bottom: 10px;
-    }
-    
-    .nextpage {
-        color: #fc944e;
-        font-size: 18px;
-        font-weight: 700;
-        font-family: 'Sriracha', cursive;
-        font-family: 'Roboto Condensed', sans-serif;
-        padding-top: 20px;
-    }
-    
-    p {
-        color: #001a33;
-        letter-spacing: 0px;
-    }
-    
-    strong {
-        font-size: 15px;
-        font-family: 'Roboto Condensed', sans-serif;
-    }
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    width: 45%;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    overflow-y: auto;
+    border: 2px solid black;
+    padding: 29px 19px 5px 24px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #808080;
+    padding: 5px 10px 10px 10px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h6 {
+    border-bottom: 2px dashed #808080;
+}
+
+.heading h1 {
+    font-size: 62px;
+    letter-spacing: 1px;
+    margin: 10px 0px 13px 0px;
+    padding: 5px 0px 2px 5px;
+    font-weight: 500;
+    column-span: all;
+}
+
+.newspaper {
+    column-count: 4;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-color: #808080;
+    text-align: justify;
+    font-size: 13px;
+}
+
+b {
+    border-top: 4px solid#fc944e;
+    font-size: 11.5px;
+    padding-left: 2px;
+    display: inline-flex;
+    padding-bottom: 10px;
+}
+
+b .fa {
+    color: #fc944e;
+}
+
+h3 {
+    font-size: 28px;
+    color: #fc944e;
+    font-style: italic;
+    font-family: 'Lemonada', cursive;
+    padding: 0px 10px 10px 10px;
+}
+
+.custem-name {
+    color: #424242;
+    font-size: 14px;
+    font-family: monospace;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.nextpage {
+    color: #fc944e;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Sriracha', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+}
+
+p {
+    color: #001a33;
+    letter-spacing: 0px;
+}
+
+strong {
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
