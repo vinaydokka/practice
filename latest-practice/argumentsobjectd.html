@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArgumentsObjects</title>
+</head>
+
+<body>
+    <!--  <script>
+        function disp(name1, name2) { 
+            // var l = arguments.length;
+            /*     arguments[0] = 'hello' */
+
+            /* document.write(name); */
+            /* document.write(l); */
+            document.write(arguments[0])
+        }
+        disp('hello vinay', 'how are you');
+    </script> -->
+
+
+    <!-- <script>
+        //arguments accepting by for loop//
+        function disp() {
+            arguments[0] = 'excuse me';
+            for (let i = 0; i < arguments.length; i++) {
+                document.write(arguments[i]);
+                /* document.write(arguments.callee); */
+
+            }
+        }
+        disp('hi', 'hello', 'world');
+    </script> -->
+
+
+
+    <script>
+        //here two parameters and three arguments and how to access the third argument
+
+        function add(a, b) {
+            document.write('A:' + a + 'B:' + b + "C:" + arguments[2]);
+        }
+        add(10, 20, 30);
+    </script>
+
+
+</body>
+
+</html>

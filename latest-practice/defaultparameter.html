@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--   <script>
+        //defoult parameter value
+        function add(a, b, c = 70) {
+            document.write('A=' + a + "<br>");
+            document.write('B=' + b + "<br>");
+            document.write('C=' + c + "<br>");
+
+
+        }
+        add(10, 20);
+    </script> -->
+
+
+
+    <!--   <script>
+        function init(a, b, c = 40) {
+            document.write('A=' + a + "<br>");
+            document.write('B=' + b + "<br>");
+            document.write('C=' + c + "<br>");
+
+
+        }
+        init(10, 20, 30) //a=10 b=20,c=30
+        init(10, 20); //the third value is undefined
+        init(10, 20, 30) //we are givinng value
+        init(10) //a=10 b=undefined c=40
+    </script> -->
+
+    <script>
+        // default parameters using null
+
+        function add(a, b, c = null) {
+            document.write("A=" + a + "<br>");
+            document.write("B=" + b + "<br>");
+            document.write("C=" + c + "<br>");
+        }
+
+        add(10, 20); //a=10 b=20,c=null
+        add(10, 20, 30); //a=10 b=20, c=30
+        add(10) //a=10 b=undefined,c=null
+    </script>
+
+
+
+</body>
+
+</html>
