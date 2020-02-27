@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let w3r_text = "This text will be added to HTML";
+        let newParagraph = document.createElement('p');
+        let newText = document.createTextNode(w3r_text);
+        newParagraph.appendChild(newText);
+        document.body.appendChild(newParagraph);
+    </script>
+</body>
+
+</html>
