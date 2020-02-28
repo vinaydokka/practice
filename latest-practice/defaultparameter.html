@@ -36,7 +36,7 @@
         init(10) //a=10 b=undefined c=40
     </script> -->
 
-    <script>
+    <!--     <script>
         // default parameters using null
 
         function add(a, b, c = null) {
@@ -48,6 +48,18 @@
         add(10, 20); //a=10 b=20,c=null
         add(10, 20, 30); //a=10 b=20, c=30
         add(10) //a=10 b=undefined,c=null
+    </script> -->
+
+
+
+    <script>
+        //default parameter values in arrays
+        function main(num, a = ['vinay', 'kumar']) {
+            document.write('A=' + a[0] + "<br>");
+            document.write('b=' + a[1] + "<br>");
+            document.write('num=' + num + "<br>");
+        }
+        main(20, [10, 40]);
     </script>
 
 

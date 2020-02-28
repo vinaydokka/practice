@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<sc>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Arrow Function basic
+        /*   let name = () => {
+              document.write('vinay');
+          };
+          name(); */
+
+        //Arrow function with perameters
+        let fullname = (name1, name2) => {
+            document.write(name1 + name2 + "<br>");
+        };
+        fullname('vinay', 'kumar');
+
+
+        ///Arrow function with default parameters
+        let show = (a, b = 20) => {
+            document.write("A:" + a);
+            document.write("B:" + b);
+        }
+        show(10);
+
+        ///Arrow function with rest  parameters
+        let disp = (a, ...args) => {
+            document.write("A:" + a);
+            document.write("B:" + args);
+        }
+        disp(10, 20, 30, 40, 50);
+    </script>
+</body>
+
+</html>

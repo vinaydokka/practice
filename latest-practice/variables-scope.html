@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables Scope</title>
+</head>
+
+<body>
+    <!--  <script>
+        //globel variables accessible from anywhare
+
+        let i = 'i am globel variable use any where';
+
+        function show() {
+            document.write(i + "<br>")
+        }
+        show();
+
+        document.write(i + "<br>") //out side the function
+        function display() {
+            document.write(i + "<br>") //inside the function
+        }
+        display();
+
+        if (true) {
+            document.write(i + "<br>") //inside the block 
+        }
+    </script> -->
+
+
+    <!-- <script>
+        //local variables only inside  the function
+        function display() {
+            let j = 'i  am local variable';
+            document.write(j + "<br>");
+        }
+        display()
+        document.write(j + "<br>"); // it canot be working
+    </script> -->
+
+
+    <!-- <script>
+        //function inside function or local scope of variables
+
+        function disp() {
+            let j = 'j is local variable of outer function';
+            document.write(j + "<br>");
+
+            function inner() {
+                let k = 'K is local variable of inner function';
+                document.write(k + "<br>");
+                document.write(j + "<br>");
+            }
+            inner();
+        }
+        disp();
+    </script> -->
+
+
+    <!-- <script>
+        //block scope
+        if (true) {
+            let a = 10;
+            var b = 20;
+            document.write(a + "<br>"); //let only access the inside block
+            document.write(b + "<br>"); //var access the variables inside and out side access.
+        }
+        document.write(b + "<br>");
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables Scope</title>
+</head>
+
+<body>
+    <script>
+        // normal function decleration
+        function show() {
+            document.write('how are you' + "<br>");
+        }
+        show();
+
+        // function expression
+        let display = function show() {
+            document.write('what can i do for you' + "<br>");
+        }
+        display(); //the function expression we cant use in before definition
+
+        //anonymous function
+
+        let a = function(b, c) {
+            document.write('hai' + "<br>");
+            document.write(b + "<br>");
+            document.write(c + "<br>");
+        };
+        a(10, 20);
+
+        ///arrow fumction
+        let myfun = () => {
+            document.write('hi');
+        };
+        myfun();
+    </script>
+</body>
+
+</html>

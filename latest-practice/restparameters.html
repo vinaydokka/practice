@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--  <script>
+        //rest parameters only write in end of parameters
+
+
+        function show(...args) {
+            document.write(args);
+        }
+        show(10, 20, 30, 40);
+    </script> -->
+
+
+    <!--  <script>
+        //rest parameter and normal parameters
+
+
+        function display(a, ...args) {
+            document.write("Args is:" + args + "<br>");
+            document.write('A is:' + a);
+        }
+        display(10, 20, 30, 40, 50);
+    </script> -->
+
+
+    <script>
+        //rest parameters with index values
+
+        function disp(a, ...args) {
+            document.write(args[0] + "<br>");
+            document.write(args[1] + "<br>");
+            document.write(args[2] + "<br>");
+            document.write(args[3] + "<br>");
+            document.write(a);
+
+        }
+        disp(10, 20, 30, 40, 50);
+    </script>
+
+</body>
+
+</html>

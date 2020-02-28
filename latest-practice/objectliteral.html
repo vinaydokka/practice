@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object literal</title>
+</head>
+
+<body>
+    <!--  <script>
+        ///object literal
+
+        /*   let fees = {
+              C: 100,
+              Sumith: 100,
+              Rohan: 300,
+              'SuperMan':400
+         }; */
+        //one type of objects
+
+        let fees = {};
+        fees['Rahul'] = 100;
+        fees['Sumith'] = 200;
+        fees['Rohan'] = 300; //this is one typr of object declering
+        fees['total'] = function() {
+            return (100 + 200 + 300);
+        }
+        document.write(fees.total());
+
+        let fees1 = {};
+        fees.Rahul = 100;
+        fees.Sumith = 200;
+        fees.Rohan = 300;
+        //this model is very easy to declearing objects
+        document.write(fees.Rahul);
+    </script> -->
+
+    <!-- <script>
+        //Object constructor method
+
+        /*   let object_name=new Object();it is the syntax of object constructor */
+        let books = new Object();
+        books.telugu = 100;
+        books.english = 300;
+        books.science = 400;
+        books.social = 500;
+        document.write(books.telugu + "<br>");
+        document.write(books.english);
+    </script> -->
+
+
+
+    <script>
+        ////adding methods to objects
+
+        let colors = {};
+        colors.red = 100;
+        colors.green = 200;
+        colors.black = 50;
+        colors.white = 50;
+        console.log(colors.red);
+        colors.blue = 500; //adding object
+        colors.rainbow = function() {
+
+        }
+        console.log(colors);
+    </script>
+</body>
+
+</html>
