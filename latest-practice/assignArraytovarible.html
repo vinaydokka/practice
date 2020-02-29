@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        ///assigning  array to variable
+        let fruits = ['apple', 'mango', 'banana', 'kiwi', 'goa'];
+        let fruitslist = fruits;
+        /*  document.write(fruits + "<br>");
+         document.write(fruitslist); */
+        fruitslist[0] = 'papaya'; //modifying array
+        document.write(fruitslist);
+        delete fruitslist[0];
+        document.write(fruitslist);
+        document.write(fruitslist[0]); ///it will shows undefined
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User input from Array</title>
+</head>
+
+<body>
+    <script>
+        //defining Array constructor method 
+        let student = new Array(3) ///input 
+        let ln = student.length;
+        for (let i = 0; i <= ln; i++) {
+            student[i] = prompt('enter name');
+
+        }
+        //display
+        for (let i = 0; i <= ln; i++) {
+            document.write(student[i] + "<br>");
+        }
+    </script>
+</body>
+
+</html>
