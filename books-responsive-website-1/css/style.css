@@ -71,19 +71,20 @@
         color: black;
     }
     
-    header .row .col-md-5 {
-        padding: 4.2vmin 1vmin;
+    header .row .col-md-6 {
+        padding: 3.2vmin 1vmin;
     }
     
     header .row .col-md-7 {
-        padding: 22vmin 1vmin;
-        padding-bottom: 35vmin;
+        padding: 0vmin 1vmin;
+        padding-bottom: 5vmin;
         font-family: var(--Rubik);
         color: white;
     }
     
-    header .row .col-md-5 img {
-        width: 90%;
+    header .row .col-md-6 img {
+        width: 80%;
+        height: auto;
     }
     
     header .container .col-md-7 h6 {
@@ -282,7 +283,7 @@
     }
     
     .section-4 .team {
-        padding: 10vmin 4vmin;
+        padding: 10vmin 3vmin;
     }
     
     .section-4 .card {
@@ -315,11 +316,20 @@
     }
     
     footer #span {
+        font-weight: bold;
         color: #ff512f;
     }
     
     footer input {
         border: none !important;
+    }
+    
+    footer .col-md-2 h4 {
+        padding-left: 15px;
+    }
+    
+    footer .col-md-2 p {
+        padding-left: 15px;
     }
     
     footer input::placeholder {
@@ -333,10 +343,11 @@
     
     footer .column i {
         color: #dd2476;
+        padding: 0 1em;
     }
     
     footer .column i+i {
-        padding: 0 0.5em;
+        /*  padding: 1em 1em; */
     }
     /*Sticky navbar**/
     
