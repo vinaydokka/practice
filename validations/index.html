@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Form Validation </title>
+
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">user list</h2>
+        <form name='registration' onsubmit="return formValidation();">
+            <input type="text" name="username" class="myInput" placeholder="Name...." id="myInput" /><br>
+            <input type="checkbox" name="check" value="check" /> <br>
+            <input type="text" id="myInput_1" name="number" placeholder="Number..."><br>
+
+            <textarea name="comment" id="myInputthree" cols="30" rows="10" placeholder="Description..." class="myInput_2"></textarea><br>
+
+            <button onclick="newElement()" class="addBtn">Add</button>
+        </form>
+    </div>
+    <ul id="myUL">
+
+    </ul>
+    <script src="valid.js "></script>
+</body>
+
+</html>
