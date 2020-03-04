@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form validation with JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <form onsubmit="return Validate()" name="vform">
+            <div id="username_div">
+                <label>TaskName:</label> <br>
+                <input type="text" name="username" class="textInput">
+                <div id="name_error"></div>
+            </div>
+
+            <div id="number_div">
+                <label>hasDuedate</label> <br>
+                <input type="checkbox" id="myCheck" onclick="myChecked()">
+                <p id="text" style="display:none"> <input type="text" name="number" class="textInput"></p>
+
+                <div id="number_error"></div>
+            </div>
+            <div id="comment_div">
+                <label>description</label> <br>
+
+                <textarea name="comment" id="comment" class="textInput" cols="30" rows="10"></textarea>
+
+                <div id="comment_error"></div>
+            </div>
+            <div>
+                <input type="submit" name="register" value="Save" class="btn">
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+
+</html>
