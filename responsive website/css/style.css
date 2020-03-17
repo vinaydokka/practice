@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Inter|Lato|Montserrat|Raleway|Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    background-image: url(/asserts/back-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+.nav-item {
+    padding: 0.9em;
+}
+
+ul li {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul li a {
+    margin-top: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #d2dae0;
+}
+
+.content {
+    color: white;
+    left: -30%;
+    bottom: -128px;
+    padding: 145px;
+    letter-spacing: 1px;
+}
+
+.content h1 {
+    font-size: 34px;
+    padding: 5px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.content p {
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 600;
+    text-align: justify;
+    letter-spacing: normal;
+}
+
+.content .btn {
+    border: 2px solid white;
+    color: whitesmoke;
+    background: transparent;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.content .btn:hover {
+    background-color: yellowgreen;
+}
+
+
+/********main  section 1 start*********/
+
+.section-1 {
+    padding: 81px 10px 20px 30px;
+}
+
+.section-1 h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #252629;
+}
+
+
+/********main  section 1 start*********/
+
+
+/********main  section 2 start*********/
+
+.section-2 {
+    border: 2px solid white;
+    padding: 25px 10px 10px 25px;
+}
+
+.section-2 .fa {
+    font-size: 75px;
+    color: greenyellow;
+    padding: 10px 20px 30px 10px;
+}
+
+.section-2 .box {
+    padding: 10px 10px 15px 15px;
+}
+
+.section-2 h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #252629;
+}
+
+.section-2 p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #252629;
+    text-align: justify;
+    padding: 7px 53px 2px 49px
+}
+
+
+/********main  section 2 end*********/
+
+
+/********main  section 3 start*********/
+
+.section-3 {
+    padding: 99px 10px 35px 25px;
+    background-color: #d9dedb;
+    margin: 35px 0px 20px 1px;
+}
+
+.section-3 .heading-2 {
+    margin-bottom: 20px;
+}
+
+.section-3 .heading-2 h1 {
+    font-size: 60px;
+    padding: 12px 0px 20px 0px;
+}
+
+.section-3 .heading-2 p {
+    font-size: 14px;
+    padding: 12px 0px 20px 0px;
+}
+
+.section-3 .sub-heading h3 {
+    font-size: 32px;
+    padding: 12px 0px 27px 0px;
+    margin-bottom: 38px;
+}
+
+#about {
+    padding: 20px 73px 28px 103px;
+}
+
+#about h4 {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#about p {
+    text-align: justify;
+    color: #4e524f;
+    padding: 5px 5px 20px 5px;
+}
+
+#Aboutbtn button {
+    border: 2px solid green;
+    color: green;
+    background: white;
+    border-radius: 33px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 17px 47px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+#Aboutbtn button:hover {
+    border: 2px solid limegreen;
+    color: white;
+    background: black;
+    border-radius: 33px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/********main  section 3 End*********/
+
+
+/********main  section 4 start*********/
+
+.section-4 {
+    padding: 46px 201px 35px 191px;
+    margin: 0px 0px 40px 44px;
+}
+
+.section-4 .heading-2 {
+    color: #8f8d85;
+    margin: 10px 50px 54px 8px;
+}
+
+.card h4 {
+    color: #8f8d85;
+    text-align: center;
+    padding: 58px 75px 12px 24px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card h4 i {
+    color: green;
+    padding: 0px 13px 7px 4px;
+}
+
+.card .card-body {
+    padding: 0px 0px 0px 34px;
+}
+
+.card .card-body p {
+    color: #787773;
+    font-size: 16px;
+    padding: 20px 20px 10px 20px;
+}
+
+.card .card-body .review {
+    float: right;
+    padding: 101px 14px 14px 0px;
+}
+
+.card .card-body .review h6 {
+    font-size: 18px;
+    color: #787773;
+    font-weight: 600;
+    padding-right: 41px;
+}
+
+.card .card-body .review span {
+    color: #787773;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card .card-body .img-fluid {
+    width: 35%;
+    height: 25%;
+    margin: 44px 0px 1px -17px;
+}
+
+
+/********main  section 4 End*********/
+
+
+/********main  section 5 start*********/
+
+.section-5 {
+    background-color: green;
+    padding: 46px 39px 35px 61px;
+    margin: 0px 0px 40px 0px;
+}
+
+.section-5 h1 {
+    color: white;
+    font-size: 40px;
+    text-align: justify;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 0px 20px 10px 10px;
+}
+
+.section-5 p {
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.section-5 button {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 17px 47px 0px 0px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.section-5 .add {
+    background-color: white;
+    padding: 16px 113px 10px 10px;
+    margin: 20px 125px 0px 79px;
+    border-radius: 10px;
+}
+
+.section-5 .add .fa {
+    color: green;
+    font-size: 30px;
+    padding: 33px 20px 14px 32px;
+}
+
+.section-5 .add span {
+    font-size: 18px;
+    padding: 33px 20px 14px 32px;
+}
+
+
+/********main  section 5 End*********/
+
+
+/********main  section 6 start*********/
+
+
+/********main  section 6 End*********/
