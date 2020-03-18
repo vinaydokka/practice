@@ -27,7 +27,7 @@ html {
     padding: 0.9em;
 }
 
-ul li {
+.navbar ul li {
     font-size: 20px;
     font-weight: 600;
 }
@@ -73,7 +73,7 @@ ul li a {
 }
 
 .content .btn:hover {
-    background-color: yellowgreen;
+    background-color: #2ed22e;
 }
 
 
@@ -103,7 +103,7 @@ ul li a {
 
 .section-2 .fa {
     font-size: 75px;
-    color: greenyellow;
+    color: #2ed22e;
     padding: 10px 20px 30px 10px;
 }
 
@@ -175,8 +175,8 @@ ul li a {
 }
 
 #Aboutbtn button {
-    border: 2px solid green;
-    color: green;
+    border: 2px solid #2ed22e;
+    color: #2ed22e;
     background: white;
     border-radius: 33px;
     text-transform: capitalize;
@@ -187,7 +187,7 @@ ul li a {
 }
 
 #Aboutbtn button:hover {
-    border: 2px solid limegreen;
+    border: 2px solid #2ed22e;
     color: white;
     background: black;
     border-radius: 33px;
@@ -221,7 +221,7 @@ ul li a {
 }
 
 .card h4 i {
-    color: green;
+    color: #2ed22e;
     padding: 0px 13px 7px 4px;
 }
 
@@ -306,7 +306,7 @@ ul li a {
 }
 
 .section-5 .add .fa {
-    color: green;
+    color: #2ed22e;
     font-size: 30px;
     padding: 33px 20px 14px 32px;
 }
@@ -322,5 +322,137 @@ ul li a {
 
 /********main  section 6 start*********/
 
+.section-6 {
+    padding: 46px 39px 35px 61px;
+    margin: 0px 0px 40px 0px;
+}
+
+.section-6 .heading-2 h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 0px 20px 10px 10px;
+}
+
+.section-6 .heading-2 p {
+    text-align: center;
+    color: #4e524f;
+    padding: 5px 5px 20px 5px;
+}
+
+.section-6 h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+}
+
 
 /********main  section 6 End*********/
+
+
+/********footer   section start*********/
+
+.footer-section {
+    background-color: #30302f;
+}
+
+.footer-section .container-fluid {
+    width: 100%;
+    padding-right: 65px;
+    padding-left: 86px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-section .container-fluid h3 {
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 600;
+    padding: 10px 5px 30px 5px;
+}
+
+.footer-section .container-fluid .info .line-bottom {
+    border-bottom: 1px solid gray;
+}
+
+.footer-section .info .fa {
+    color: #2ed22e;
+    font-size: 20px;
+    padding: 30px 17px 22px 10px;
+    cursor: pointer;
+}
+
+.footer-section .info span {
+    color: #6c757d;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-section .quick-links ul {
+    color: #6c757d;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer-section .quick-links ul li {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 10px 0px 10px;
+    border-bottom: 1px solid gray;
+}
+
+.footer-section .quick-links ul li .fa {
+    color: #2ed22e;
+    font-size: 16px;
+    padding: 10px 10px 0px 10px;
+}
+
+.footer-section .social-links {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-section .social-links ul {
+    color: #6c757d;
+    list-style: none;
+    padding: 0px 3px 0px 0px;
+}
+
+.footer-section .social-links ul li {
+    padding: 10px 10px 0px 10px;
+}
+
+.footer-section .social-links ul li .fa {
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+}
+
+.footer-section .newsletter .form-control {
+    border-radius: 20px;
+    padding: 9px 23px 10px 10px;
+    margin: 19px 2px 25px 0px;
+    width: 80%;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer-section .newsletter .btn {
+    border: 2px solid #2ed22e;
+    cursor: pointer;
+    color: #2ed22e;
+    background: transparent;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 42px;
+    margin-top: 20px;
+    padding: 15px 45px 15px 45px;
+}
+
+
+/********footer   section end*********/
