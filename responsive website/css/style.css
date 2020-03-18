@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Inter|Lato|Montserrat|Raleway|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap');
 * {
     box-sizing: border-box;
 }
+
+
+/*******Intro section Start***********/
 
 body,
 html {
@@ -19,6 +22,43 @@ html {
     color: white;
 }
 
+.background .top-text p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    padding: 10px 10px 0px 53px;
+    letter-spacing: 1px;
+}
+
+.background .toplinks {
+    color: #2ed22e;
+    font-size: 18px;
+}
+
+.background .toplinks .fa {
+    padding: 10px 10px 0px 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.background .toplinks span {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.background .line {
+    border-bottom: 1px solid #6c757d;
+    margin-bottom: 5px;
+}
+
+.navbar .navbar-brand i {
+    color: white;
+    font-size: 80px;
+    padding: 0px 30px 10px 10px;
+}
+
 .nav-item:last-child {
     padding-right: 10.5em;
 }
@@ -30,29 +70,34 @@ html {
 .navbar ul li {
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Muli', sans-serif;
 }
 
 ul li a {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #d2dae0;
+    color: white;
+    ;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2ed22e;
 }
 
 .content {
     color: white;
-    left: -30%;
-    bottom: -128px;
-    padding: 145px;
-    letter-spacing: 1px;
+    top: 80px;
+    right: 25%;
 }
 
 .content h1 {
-    font-size: 34px;
+    font-size: 48px;
     padding: 5px;
     font-weight: 600;
     text-align: justify;
+    font-family: 'Muli', sans-serif;
 }
 
 .content p {
@@ -61,6 +106,7 @@ ul li a {
     font-weight: 600;
     text-align: justify;
     letter-spacing: normal;
+    font-family: 'Muli', sans-serif;
 }
 
 .content .btn {
@@ -68,8 +114,8 @@ ul li a {
     color: whitesmoke;
     background: transparent;
     border-radius: 25px;
-    text-transform: capitalize;
     font-weight: 600;
+    font-family: 'Muli', sans-serif;
 }
 
 .content .btn:hover {
@@ -77,7 +123,10 @@ ul li a {
 }
 
 
-/********main  section 1 start*********/
+/*******Intro section End***********/
+
+
+/********Service section  start*********/
 
 .section-1 {
     padding: 81px 10px 20px 30px;
@@ -86,18 +135,19 @@ ul li a {
 .section-1 h1 {
     font-size: 40px;
     font-weight: 500;
-    font-family: sans-serif;
+    font-family: 'Muli', sans-serif;
     color: #252629;
 }
 
-
-/********main  section 1 start*********/
-
-
-/********main  section 2 start*********/
+.section-1 p {
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+}
 
 .section-2 {
-    border: 2px solid white;
     padding: 25px 10px 10px 25px;
 }
 
@@ -107,48 +157,56 @@ ul li a {
     padding: 10px 20px 30px 10px;
 }
 
-.section-2 .box {
-    padding: 10px 10px 15px 15px;
-}
-
 .section-2 h2 {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     color: #252629;
+    font-family: 'Muli', sans-serif;
 }
 
 .section-2 p {
-    font-size: 14px;
-    font-weight: 500;
-    color: #252629;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
     text-align: justify;
-    padding: 7px 53px 2px 49px
+    padding: 7px 7px 8px 24px;
+    margin: 0px 5px 5px 5px;
+    font-family: 'Muli', sans-serif;
+}
+
+.section-2 .btn {
+    font-size: 20px;
+    font-weight: 600;
+    ;
 }
 
 
-/********main  section 2 end*********/
+/******service section End************/
 
 
-/********main  section 3 start*********/
+/********About Us Section Start*********/
 
 .section-3 {
     padding: 99px 10px 35px 25px;
-    background-color: #d9dedb;
+    background-color: #f2f2f0;
     margin: 35px 0px 20px 1px;
+    font-family: 'Muli', sans-serif;
+}
+
+.section-3 .heading-2 h1 {
+    font-size: 60px;
+    padding: 12px 0px 20px 0px;
+    font-weight: 500;
 }
 
 .section-3 .heading-2 {
     margin-bottom: 20px;
 }
 
-.section-3 .heading-2 h1 {
-    font-size: 60px;
-    padding: 12px 0px 20px 0px;
-}
-
 .section-3 .heading-2 p {
-    font-size: 14px;
-    padding: 12px 0px 20px 0px;
+    font-size: 16px;
+    padding: 0px 183px 20px 242px;
+    color: gray;
 }
 
 .section-3 .sub-heading h3 {
@@ -158,20 +216,25 @@ ul li a {
 }
 
 #about {
-    padding: 20px 73px 28px 103px;
+    padding: 23px 76px 43px 194px;
+}
+
+#about .description {
+    padding: 4px 63px 10px 24px;
 }
 
 #about h4 {
     text-align: justify;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     text-transform: capitalize;
 }
 
 #about p {
     text-align: justify;
-    color: #4e524f;
+    color: gray;
     padding: 5px 5px 20px 5px;
+    font-size: 16px;
 }
 
 #Aboutbtn button {
@@ -184,6 +247,7 @@ ul li a {
     padding: 17px 47px;
     font-size: 17px;
     margin-bottom: 50px;
+    font
 }
 
 #Aboutbtn button:hover {
@@ -197,14 +261,15 @@ ul li a {
 }
 
 
-/********main  section 3 End*********/
+/********About Us Section End*********/
 
 
-/********main  section 4 start*********/
+/********Review Section start*********/
 
 .section-4 {
     padding: 46px 201px 35px 191px;
     margin: 0px 0px 40px 44px;
+    font-family: 'Muli', sans-serif;
 }
 
 .section-4 .heading-2 {
@@ -212,7 +277,7 @@ ul li a {
     margin: 10px 50px 54px 8px;
 }
 
-.card h4 {
+.section-4 .card h4 {
     color: #8f8d85;
     text-align: center;
     padding: 58px 75px 12px 24px;
@@ -220,62 +285,64 @@ ul li a {
     font-weight: 600;
 }
 
-.card h4 i {
+.section-4 .card h4 i {
     color: #2ed22e;
     padding: 0px 13px 7px 4px;
 }
 
-.card .card-body {
+.section-4 .card .card-body {
     padding: 0px 0px 0px 34px;
 }
 
-.card .card-body p {
+.section-4 .card .card-body p {
     color: #787773;
     font-size: 16px;
     padding: 20px 20px 10px 20px;
+    font-style: italic;
+    font-weight: 600;
 }
 
-.card .card-body .review {
+.section-4 .card .card-body .review {
     float: right;
     padding: 101px 14px 14px 0px;
 }
 
-.card .card-body .review h6 {
+.section-4 .card .card-body .review h6 {
     font-size: 18px;
     color: #787773;
     font-weight: 600;
     padding-right: 41px;
 }
 
-.card .card-body .review span {
+.section-4 .card .card-body .review span {
     color: #787773;
     font-size: 14px;
     font-weight: 600;
 }
 
-.card .card-body .img-fluid {
+.section-4 .card .card-body .img-fluid {
     width: 35%;
     height: 25%;
     margin: 44px 0px 1px -17px;
 }
 
 
-/********main  section 4 End*********/
+/*******Review Section End*********/
 
 
-/********main  section 5 start*********/
+/********Contact section start*********/
 
 .section-5 {
     background-color: green;
     padding: 46px 39px 35px 61px;
     margin: 0px 0px 40px 0px;
+    font-family: 'Muli', sans-serif;
 }
 
 .section-5 h1 {
     color: white;
     font-size: 40px;
     text-align: justify;
-    text-transform: capitalize;
     font-weight: 600;
     padding: 0px 20px 10px 10px;
 }
@@ -283,6 +350,7 @@ ul li a {
 .section-5 p {
     color: white;
     letter-spacing: 0.5px;
+    font-weight: 600;
 }
 
 .section-5 button {
@@ -317,10 +385,10 @@ ul li a {
 }
 
 
-/********main  section 5 End*********/
+/********Contact section End*********/
 
 
-/********main  section 6 start*********/
+/********Testimonial section start*********/
 
 .section-6 {
     padding: 46px 39px 35px 61px;
@@ -347,7 +415,7 @@ ul li a {
 }
 
 
-/********main  section 6 End*********/
+/********Testimonial section End*********/
 
 
 /********footer   section start*********/
@@ -377,6 +445,9 @@ ul li a {
     border-bottom: 1px solid gray;
 }
 
+
+/*******Contact info***********/
+
 .footer-section .info .fa {
     color: #2ed22e;
     font-size: 20px;
@@ -389,6 +460,9 @@ ul li a {
     font-size: 16px;
     font-weight: 600;
 }
+
+
+/*******Quick links***********/
 
 .footer-section .quick-links ul {
     color: #6c757d;
@@ -408,6 +482,9 @@ ul li a {
     font-size: 16px;
     padding: 10px 10px 0px 10px;
 }
+
+
+/**********Social media links********/
 
 .footer-section .social-links {
     font-size: 16px;
@@ -429,6 +506,9 @@ ul li a {
     font-size: 18px;
     padding: 0px 10px 0px 10px;
 }
+
+
+/********newa Letter info**********/
 
 .footer-section .newsletter .form-control {
     border-radius: 20px;
