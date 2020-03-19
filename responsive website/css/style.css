@@ -13,13 +13,14 @@ html {
 }
 
 .background {
-    background-image: url(/asserts/back-3.jpg);
+    background-image: url(/asserts/banner-2.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     color: white;
+    opacity: 0.8;
 }
 
 .background .top-text p {
@@ -27,18 +28,20 @@ html {
     font-weight: 600;
     font-family: 'Muli', sans-serif;
     color: white;
-    padding: 10px 10px 0px 53px;
     letter-spacing: 1px;
+    margin-left: 10%;
+    margin-top: 20px;
 }
 
 .background .toplinks {
     color: #2ed22e;
     font-size: 18px;
+    margin-top: 20px;
 }
 
 .background .toplinks .fa {
     padding: 10px 10px 0px 10px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -46,6 +49,7 @@ html {
     color: white;
     font-size: 18px;
     letter-spacing: 1px;
+    font-weight: 600;
 }
 
 .background .line {
@@ -60,15 +64,15 @@ html {
 }
 
 .nav-item:last-child {
-    padding-right: 10.5em;
+    padding-right: 0px;
 }
 
 .nav-item {
-    padding: 0.9em;
+    padding: 10px 10px 10px 10px;
 }
 
 .navbar ul li {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'Muli', sans-serif;
 }
@@ -79,7 +83,6 @@ ul li a {
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
-    ;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -88,8 +91,7 @@ ul li a {
 
 .content {
     color: white;
-    top: 80px;
-    right: 25%;
+    top: 120px;
 }
 
 .content h1 {
@@ -129,7 +131,7 @@ ul li a {
 /********Service section  start*********/
 
 .section-1 {
-    padding: 81px 10px 20px 30px;
+    padding: 81px 20px 40px 20px;
 }
 
 .section-1 h1 {
@@ -137,6 +139,7 @@ ul li a {
     font-weight: 500;
     font-family: 'Muli', sans-serif;
     color: #252629;
+    padding-top: 50px;
 }
 
 .section-1 p {
@@ -147,14 +150,19 @@ ul li a {
     font-family: 'Muli', sans-serif;
 }
 
+.box {
+    padding: 10px 10px 10px 10px;
+}
+
 .section-2 {
     padding: 25px 10px 10px 25px;
+    font-family: 'Muli', sans-serif;
 }
 
 .section-2 .fa {
     font-size: 75px;
     color: #2ed22e;
-    padding: 10px 20px 30px 10px;
+    padding: 10px 20px 20px 10px;
 }
 
 .section-2 h2 {
@@ -168,16 +176,15 @@ ul li a {
     font-size: 16px;
     font-weight: 600;
     color: gray;
-    text-align: justify;
-    padding: 7px 7px 8px 24px;
+    text-align: center;
+    padding: 6px 12px 5px 12px;
     margin: 0px 5px 5px 5px;
     font-family: 'Muli', sans-serif;
 }
 
 .section-2 .btn {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
-    ;
 }
 
 
@@ -187,20 +194,16 @@ ul li a {
 /********About Us Section Start*********/
 
 .section-3 {
-    padding: 99px 10px 35px 25px;
     background-color: #f2f2f0;
     margin: 35px 0px 20px 1px;
     font-family: 'Muli', sans-serif;
+    padding: 30px 10px 10px 10px;
 }
 
 .section-3 .heading-2 h1 {
-    font-size: 60px;
+    font-size: 40px;
     padding: 12px 0px 20px 0px;
     font-weight: 500;
-}
-
-.section-3 .heading-2 {
-    margin-bottom: 20px;
 }
 
 .section-3 .heading-2 p {
@@ -209,32 +212,27 @@ ul li a {
     color: gray;
 }
 
+.section-3 .heading-2 {
+    margin-bottom: 20px;
+}
+
 .section-3 .sub-heading h3 {
     font-size: 32px;
     padding: 12px 0px 27px 0px;
     margin-bottom: 38px;
 }
 
-#about {
-    padding: 23px 76px 43px 194px;
-}
-
-#about .description {
-    padding: 4px 63px 10px 24px;
-}
-
-#about h4 {
-    text-align: justify;
-    font-size: 22px;
+.section-3 .description h4 {
+    font-size: 21px;
     font-weight: 600;
-    text-transform: capitalize;
+    font-family: 'Muli', sans-serif;
 }
 
 #about p {
     text-align: justify;
     color: gray;
     padding: 5px 5px 20px 5px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #Aboutbtn button {
@@ -242,12 +240,10 @@ ul li a {
     color: #2ed22e;
     background: white;
     border-radius: 33px;
-    text-transform: capitalize;
-    font-weight: 600;
-    padding: 17px 47px;
+    font-weight: 700;
+    padding: 17px 40px;
     font-size: 17px;
     margin-bottom: 50px;
-    font
 }
 
 #Aboutbtn button:hover {
@@ -256,7 +252,7 @@ ul li a {
     background: black;
     border-radius: 33px;
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
 }
 
@@ -267,14 +263,21 @@ ul li a {
 /********Review Section start*********/
 
 .section-4 {
-    padding: 46px 201px 35px 191px;
-    margin: 0px 0px 40px 44px;
+    padding: 46px 10px 35px 19px;
+    margin: 0px 0px 40px 10px;
     font-family: 'Muli', sans-serif;
 }
 
-.section-4 .heading-2 {
-    color: #8f8d85;
+.section-4 .heading-2 h1 {
+    color: black;
     margin: 10px 50px 54px 8px;
+}
+
+.section-4 .heading-2 p {
+    color: #787773;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
 }
 
 .section-4 .card h4 {
@@ -304,12 +307,12 @@ ul li a {
 
 .section-4 .card .card-body .review {
     float: right;
-    padding: 101px 14px 14px 0px;
+    padding: 19px 14px 14px 0px;
 }
 
 .section-4 .card .card-body .review h6 {
     font-size: 18px;
-    color: #787773;
+    color: #6b6c6e;
     font-weight: 600;
     padding-right: 41px;
 }
@@ -320,10 +323,12 @@ ul li a {
     font-weight: 600;
 }
 
-.section-4 .card .card-body .img-fluid {
-    width: 35%;
-    height: 25%;
-    margin: 44px 0px 1px -17px;
+.section-4 .img-fluid {
+    position: relative;
+    width: 34%;
+    height: 28%;
+    margin: -79px 0px 1px -204px;
+    z-index: 20;
 }
 
 
@@ -333,15 +338,15 @@ ul li a {
 /********Contact section start*********/
 
 .section-5 {
-    background-color: green;
-    padding: 46px 39px 35px 61px;
-    margin: 0px 0px 40px 0px;
+    background-color: #3dbf06;
+    padding: 47px 5px 120px 5px;
+    margin: 0px 0px 60px 0px;
     font-family: 'Muli', sans-serif;
 }
 
 .section-5 h1 {
     color: white;
-    font-size: 40px;
+    font-size: 41px;
     text-align: justify;
     font-weight: 600;
     padding: 0px 20px 10px 10px;
@@ -351,6 +356,11 @@ ul li a {
     color: white;
     letter-spacing: 0.5px;
     font-weight: 600;
+}
+
+.section-5 .title {
+    color: black;
+    padding-top: 40px;
 }
 
 .section-5 button {
@@ -368,20 +378,20 @@ ul li a {
 
 .section-5 .add {
     background-color: white;
-    padding: 16px 113px 10px 10px;
-    margin: 20px 125px 0px 79px;
+    padding: 24px 13px 37px 15px;
+    margin: 33px -122px 14px 81px;
     border-radius: 10px;
 }
 
 .section-5 .add .fa {
-    color: #2ed22e;
+    color: #40d102;
     font-size: 30px;
     padding: 33px 20px 14px 32px;
 }
 
 .section-5 .add span {
     font-size: 18px;
-    padding: 33px 20px 14px 32px;
+    padding: 13px 20px 14px 13px;
 }
 
 
@@ -393,25 +403,64 @@ ul li a {
 .section-6 {
     padding: 46px 39px 35px 61px;
     margin: 0px 0px 40px 0px;
+    font-family: 'Muli', sans-serif;
+}
+
+.section-6 .card {
+    box-shadow: 10px 5px 15px 5px whitesmoke;
 }
 
 .section-6 .heading-2 h1 {
     font-size: 45px;
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0px 20px 10px 10px;
+}
+
+.section-6 .heading-2 h2 {
+    font-size: 35px;
+    color: red;
 }
 
 .section-6 .heading-2 p {
     text-align: center;
-    color: #4e524f;
-    padding: 5px 5px 20px 5px;
+    color: gray;
+    padding: 25px 5px 20px 5px;
+    text-align: center;
 }
 
 .section-6 h6 {
-    font-size: 18px;
-    font-weight: 500;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
     color: grey;
+    text-transform: uppercase;
+}
+
+.section-6 .fa {
+    color: #2ed22e;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.section-6 span {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.section-6 p {
+    text-align: justify;
+    color: gray;
+    padding: 10px 5px 20px 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-6 .btn {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
@@ -422,26 +471,26 @@ ul li a {
 
 .footer-section {
     background-color: #30302f;
+    font-family: 'Muli', sans-serif;
+    color: white;
 }
 
-.footer-section .container-fluid {
+.footer-section .container {
     width: 100%;
-    padding-right: 65px;
-    padding-left: 86px;
+    padding-right: 0px;
+    padding-left: 10px;
     padding-bottom: 40px;
     padding-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
-.footer-section .container-fluid h3 {
-    font-size: 25px;
+.footer-section .container h3 {
+    font-size: 20px;
     color: whitesmoke;
     font-weight: 600;
-    padding: 10px 5px 30px 5px;
+    padding: 0px 5px 25px 5px;
 }
 
-.footer-section .container-fluid .info .line-bottom {
+.footer-section .container .info .line-bottom {
     border-bottom: 1px solid gray;
 }
 
@@ -451,7 +500,7 @@ ul li a {
 .footer-section .info .fa {
     color: #2ed22e;
     font-size: 20px;
-    padding: 30px 17px 22px 10px;
+    padding: 25px 17px 22px 10px;
     cursor: pointer;
 }
 
@@ -470,11 +519,25 @@ ul li a {
     cursor: pointer;
 }
 
+.footer-section .quick-links #demo {
+    padding-left: 46px;
+}
+
 .footer-section .quick-links ul li {
     font-size: 18px;
     font-weight: 600;
     padding: 10px 10px 0px 10px;
-    border-bottom: 1px solid gray;
+}
+
+.footer-section .myDiv {
+    _border-bottom: 2px solid#6c757d;
+}
+
+.footer-section .myDiv div {
+    margin: 5px 10px 0px 40px;
+    width: 40%;
+    height: 1px;
+    background-color: #6c757d;
 }
 
 .footer-section .quick-links ul li .fa {
@@ -490,6 +553,7 @@ ul li a {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    padding-top: 14px;
 }
 
 .footer-section .social-links ul {
@@ -499,7 +563,7 @@ ul li a {
 }
 
 .footer-section .social-links ul li {
-    padding: 10px 10px 0px 10px;
+    padding: 9px 14px 10px 2px;
 }
 
 .footer-section .social-links ul li .fa {
@@ -514,10 +578,16 @@ ul li a {
     border-radius: 20px;
     padding: 9px 23px 10px 10px;
     margin: 19px 2px 25px 0px;
-    width: 80%;
+    width: 130%;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
+    text-align: justify;
+}
+
+.footer-section .newsletter p {
+    font-size: 16px;
+    margin: 10px -119px 10px 3px;
 }
 
 .footer-section .newsletter .btn {
@@ -530,7 +600,7 @@ ul li a {
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 42px;
-    margin-top: 20px;
+    margin-top: 0px;
     padding: 15px 45px 15px 45px;
 }
 
