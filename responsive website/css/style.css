@@ -17,10 +17,14 @@ html {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     color: white;
     opacity: 0.8;
+}
+
+.container-fluid {
+    width: 90%;
 }
 
 .background .top-text p {
@@ -29,25 +33,27 @@ html {
     font-family: 'Muli', sans-serif;
     color: white;
     letter-spacing: 1px;
-    margin-left: 10%;
+    margin-left: 70px;
     margin-top: 20px;
 }
 
 .background .toplinks {
-    color: #2ed22e;
+    color: #ef4025;
     font-size: 18px;
     margin-top: 20px;
+    float: right;
+    padding: 0px 183px;
 }
 
 .background .toplinks .fa {
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 8px;
     font-weight: 600;
     cursor: pointer;
 }
 
 .background .toplinks span {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -57,14 +63,19 @@ html {
     margin-bottom: 5px;
 }
 
+.container #container {
+    margin: 10px 10px;
+}
+
 .navbar .navbar-brand i {
     color: white;
     font-size: 80px;
-    padding: 0px 30px 10px 10px;
+    margin-left: 20px;
 }
 
 .nav-item:last-child {
     padding-right: 0px;
+    padding-left: 10px;
 }
 
 .nav-item {
@@ -79,19 +90,24 @@ html {
 
 ul li a {
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    margin: 10px 16px 10px 14px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #2ed22e;
+    color: #ef4025;
 }
 
 .content {
+    position: relative;
     color: white;
-    top: 120px;
+    top: 168px;
+    right: 12%;
+    letter-spacing: 2px;
 }
 
 .content h1 {
@@ -103,8 +119,8 @@ ul li a {
 }
 
 .content p {
-    font-size: 14px;
-    padding: 5px;
+    font-size: 16px;
+    padding: 5px 5px 30px 5px;
     font-weight: 600;
     text-align: justify;
     letter-spacing: normal;
@@ -118,10 +134,12 @@ ul li a {
     border-radius: 25px;
     font-weight: 600;
     font-family: 'Muli', sans-serif;
+    padding-bottom: 50px;
+    display: inline-flex;
 }
 
 .content .btn:hover {
-    background-color: #2ed22e;
+    background-color: #ef4025;
 }
 
 
@@ -139,7 +157,7 @@ ul li a {
     font-weight: 500;
     font-family: 'Muli', sans-serif;
     color: #252629;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .section-1 p {
@@ -161,7 +179,7 @@ ul li a {
 
 .section-2 .fa {
     font-size: 75px;
-    color: #2ed22e;
+    color: #ef4025;
     padding: 10px 20px 20px 10px;
 }
 
@@ -185,6 +203,10 @@ ul li a {
 .section-2 .btn {
     font-size: 16px;
     font-weight: 600;
+}
+
+.box .card {
+    width: 17rem;
 }
 
 
@@ -236,8 +258,8 @@ ul li a {
 }
 
 #Aboutbtn button {
-    border: 2px solid #2ed22e;
-    color: #2ed22e;
+    border: 2px solid #ef4025;
+    color: #ef4025;
     background: white;
     border-radius: 33px;
     font-weight: 700;
@@ -247,7 +269,7 @@ ul li a {
 }
 
 #Aboutbtn button:hover {
-    border: 2px solid #2ed22e;
+    border: 2px solid #ef4025;
     color: white;
     background: black;
     border-radius: 33px;
@@ -271,6 +293,7 @@ ul li a {
 .section-4 .heading-2 h1 {
     color: black;
     margin: 10px 50px 54px 8px;
+    font-size: 40px;
 }
 
 .section-4 .heading-2 p {
@@ -289,7 +312,7 @@ ul li a {
 }
 
 .section-4 .card h4 i {
-    color: #2ed22e;
+    color: #ef4025;
     padding: 0px 13px 7px 4px;
 }
 
@@ -338,7 +361,7 @@ ul li a {
 /********Contact section start*********/
 
 .section-5 {
-    background-color: #3dbf06;
+    background-color: #ef4025;
     padding: 47px 5px 120px 5px;
     margin: 0px 0px 60px 0px;
     font-family: 'Muli', sans-serif;
@@ -384,7 +407,7 @@ ul li a {
 }
 
 .section-5 .add .fa {
-    color: #40d102;
+    color: #ef4025;
     font-size: 30px;
     padding: 33px 20px 14px 32px;
 }
@@ -417,9 +440,9 @@ ul li a {
     padding: 0px 20px 10px 10px;
 }
 
-.section-6 .heading-2 h2 {
+.section-6 .heading-2 h4 {
     font-size: 35px;
-    color: red;
+    color: #ef4025;
 }
 
 .section-6 .heading-2 p {
@@ -438,7 +461,7 @@ ul li a {
 }
 
 .section-6 .fa {
-    color: #2ed22e;
+    color: #ef4025;
     padding: 10px 10px;
     font-size: 18px;
 }
@@ -452,7 +475,7 @@ ul li a {
 
 .section-6 p {
     text-align: justify;
-    color: gray;
+    color: #474747;
     padding: 10px 5px 20px 5px;
     font-size: 16px;
     font-weight: 500;
@@ -473,6 +496,8 @@ ul li a {
     background-color: #30302f;
     font-family: 'Muli', sans-serif;
     color: white;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .footer-section .container {
@@ -498,7 +523,7 @@ ul li a {
 /*******Contact info***********/
 
 .footer-section .info .fa {
-    color: #2ed22e;
+    color: #ef4025;
     font-size: 20px;
     padding: 25px 17px 22px 10px;
     cursor: pointer;
@@ -535,13 +560,13 @@ ul li a {
 
 .footer-section .myDiv div {
     margin: 5px 10px 0px 40px;
-    width: 40%;
+    width: 26%;
     height: 1px;
     background-color: #6c757d;
 }
 
 .footer-section .quick-links ul li .fa {
-    color: #2ed22e;
+    color: #ef4025;
     font-size: 16px;
     padding: 10px 10px 0px 10px;
 }
@@ -574,7 +599,8 @@ ul li a {
 
 /********newa Letter info**********/
 
-.footer-section .newsletter .form-control {
+
+/* .footer-section .newsletter .form-control {
     border-radius: 20px;
     padding: 9px 23px 10px 10px;
     margin: 19px 2px 25px 0px;
@@ -587,7 +613,7 @@ ul li a {
 
 .footer-section .newsletter p {
     font-size: 16px;
-    margin: 10px -119px 10px 3px;
+    margin: 10px 9px 10px 3px;
 }
 
 .footer-section .newsletter .btn {
@@ -602,7 +628,7 @@ ul li a {
     margin-bottom: 42px;
     margin-top: 0px;
     padding: 15px 45px 15px 45px;
-}
+} */
 
 
 /********footer   section end*********/

@@ -9,47 +9,49 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <!--    <link rel="stylesheet" href="/css/mobile-responsive.css"> -->
+    <link rel="stylesheet" href="/css/tabresponsive.css">
 
 </head>
 
 <body>
 
     <!------Intro Section Start----------------->
-    <section class="background">
-        <div class="container-fluid">
-            <div class=" line wrap">
-                <div class="  row">
-                    <div class="top-text col-md-6">
-                        <p>welcome to our broker agency website.
-                            <p>
-                    </div>
-                    <div class=" offset-md-2"></div>
-                    <div class="toplinks col-md-4">
-                        <i class="fa fa-phone" aria-hidden="true"></i> <span>+00(123)456 7890</span>
-                        <i class="fa fa-envelope" aria-hidden="true"></i> <span></span>
-                        <i class="fa fa-search" aria-hidden="true"></i> <span></span>
-                    </div>
+    <section class="background" id="home">
+        <div class="container-fluid pl-2 pr-2 ">
+            <div class="row">
+                <div class=" offset-md-1"></div>
+                <div class="top-text col-md-5 col-sm-12">
+                    <p>welcome to our nexgdata website.
+                        <p>
+                </div>
+                <!--   -->
 
+                <div class="toplinks col-md-6 ">
+
+                    <i class="fa fa-phone" aria-hidden="true"></i> <span>+00(123)456 7890</span>
+                    <i class="fa fa-envelope" aria-hidden="true"></i> <span>ops@nexgdata.com</span>
+                    <!--  <i class="fa fa-search" aria-hidden="true"></i> <span></span> -->
                 </div>
             </div>
-
-
-
         </div>
-        <div class="container p-0">
+
+        <div class=" line wrap"></div>
+
+        <div class="container container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><i class="fa fa-handshake-o" aria-hidden="true"></i></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa fa-align-right text-light" aria-hidden="true"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
                         </li>
 
-                        <li class="nav-item dropdown">
+                        <!--  <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 BLOG
                             </a>
@@ -58,9 +60,9 @@
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <a class="dropdown-item" href="#">Something else here</a>
                             </div>
-                        </li>
+                        </li> -->
 
-                        <li class="nav-item dropdown">
+                        <!--  <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 SERVICE LIST
                             </a>
@@ -70,13 +72,13 @@
                                 <a class="dropdown-item" href="#">Something else here</a>
                             </div>
                         </li>
-
+ -->
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT US</a>
+                            <a class="nav-link" href="#service"> SERVICES LIST</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">STYLE GUIDE</a>
+                            <a class="nav-link" href="#contact">CONTACT US</a>
                         </li>
                     </ul>
                 </div>
@@ -84,23 +86,29 @@
 
 
 
-            <div class="container">
-                <div class="row">
+            <div class="container-fluid">
+                <div class="row pb-5">
 
-                    <div class=" content col-md-6 col-sm-12">
+                    <div class=" content col-lg-8 col-md-12 col-sm-12 ">
+
+
                         <h1>Helping You Every Step </h1>
                         <h1> of The way</h1>
                         <p>
                             Present porta ligula a finibus pretium arcudai imperdiet nuncvei rhoncus metus neque sitamet justonce lacinia posuare dolorsu.
 
                         </p>
-                        <button class="btn btn-default px-5 py-2 ">DOWNLOAD </button>
-                        <button class="btn btn-default px-5 py-2">LEARN MORE</button>
+
+                        <button class="btn btn-default px-5 py-2 mb-3 ">DOWNLOAD </button><br>
+                        <button class="btn btn-default px-5 py-2" id="more">LEARN MORE</button>
                     </div>
+
+
                 </div>
+
             </div>
 
-        </div>
+
     </section>
 
     <!------Intro Section End----------------->
@@ -110,7 +118,7 @@
     <!--------main section start--------------->
     <main>
         <!---------------Services section start------------------->
-        <section class="section-1 text-center p-0">
+        <section class="section-1 text-center" id="service">
             <div class="container">
                 <h1>
                     The Best Broker services
@@ -121,21 +129,21 @@
         <section class="section-2 text-center">
             <div class="container">
                 <div class="row ">
-                    <div class="box col-md-3 ">
+                    <div class="box col-md-3 col-sm-12 ">
                         <div class="card">
 
                             <i class="fa fa-podcast" aria-hidden="true"></i>
                             <h2>Equity</h2>
 
                             <div class="card-body">
-                                <p>Donac euurna lobor tis an tes gravi dase iaculis aec enas is euesr suscipitatull amcorper.sus amcorper.</p>
+                                <p>Donac euurna lobor tis an tes gravi dase iaculis aec enas is euesr suscipitatull amcorper.sus amcorper.amcor</p>
                                 <button class="btn btn-default"><u>READ MORE</u></button>
                             </div>
 
                         </div>
                     </div>
 
-                    <div class="box col-md-3">
+                    <div class="box col-md-3 col-sm-6">
                         <div class="card">
 
                             <i class="fa fa-desktop" aria-hidden="true"></i>
@@ -149,7 +157,7 @@
                         </div>
                     </div>
 
-                    <div class="box col-md-3">
+                    <div class="box col-md-3 col-sm-6">
                         <div class="card">
 
                             <i class="fa fa-cog" aria-hidden="true"></i>
@@ -162,7 +170,7 @@
                         </div>
                     </div>
 
-                    <div class="box col-md-3">
+                    <div class="box col-md-3 col-sm-6">
                         <div class="card">
                             <i class="fa fa-usd" aria-hidden="true"></i>
                             <h2>Curruncy</h2>
@@ -183,7 +191,7 @@
 
 
         <!-------About Us Section Start---------------->
-        <section class="section-3 ">
+        <section class="section-3  ">
             <div class="container">
                 <div class="heading-2 text-center ">
                     <h1>Who We Are?</h1>
@@ -192,21 +200,21 @@
                 </div>
             </div>
             <div class="container">
-                <div class="sub-heading text-center">
+                <div class="sub-heading text-center ">
                     <h3>Take on the market with our powerfull platforms</h3>
                 </div>
                 <div class="row" id="about">
-                    <div class=" description col-md-4">
+                    <div class=" description  col-lg-4 col-md-10 col-sm-12 float-center">
                         <h4>Multiple Brokage Options</h4>
                         <p>Scelerisque diam artis ut phasellus exorci posuere mollis tellus ia lorrem pharetra dolordui
                         </p>
                     </div>
-                    <div class="description col-md-4">
+                    <div class="description col-lg-4 col-md-10 col-sm-12">
                         <h4>Convinience</h4>
                         <p>Neesceleriaque diam ortis ut phasellus exorci one posuare mollis tellus ia lorrem pharetra
                         </p>
                     </div>
-                    <div class="description col-md-4">
+                    <div class="description col-lg-4 col-md-10 col-sm-12">
                         <h4>Expert Research Recomendation</h4>
                         <p>Elerisque diam ortisut phasellus exorci posuare one mollis tellus lorrem desones deroits</p>
                     </div>
@@ -222,7 +230,7 @@
 
 
         <!--------Review Section start--------------->
-        <section class="section-4">
+        <section class="section-4 ">
             <div class="container my-3 py-3 px-2 text-center">
                 <div class="heading-2 text-center ">
                     <h1>Customer reviews</h1>
@@ -232,7 +240,7 @@
 
 
                 <div class="row">
-                    <div class="col-md-4 ">
+                    <div class=" col-xl-4  col-md-10 col-sm-12">
                         <div class="card">
 
                             <h4> <i class="fa fa-quote-left" aria-hidden="true"></i> Good Service</h4>
@@ -250,7 +258,7 @@
                     </div>
 
 
-                    <div class="col-md-4 ">
+                    <div class="col-xl-4 col-md-10 col-sm-12">
                         <div class="card">
 
                             <h4> <i class="fa fa-quote-left" aria-hidden="true"></i>Great Discovery</h4>
@@ -270,7 +278,7 @@
                     </div>
 
 
-                    <div class="col-md-4 ">
+                    <div class="col-xl-4 col-md-10 col-sm-12">
                         <div class="card">
 
                             <h4> <i class="fa fa-quote-left" aria-hidden="true"></i> Good Service</h4>
@@ -294,16 +302,16 @@
         <!--------Review section End--------------->
 
         <!--------Contact section start--------------->
-        <section class="section-5">
+        <section class="section-5" id="contact">
             <div class="container">
                 <div class="row">
-                    <div class="title col-md-7">
+                    <div class="title col-xl-7 col-md-8 col-sm-12">
                         <h1>Get in touch </h1>
                         <h1>Call ,email 24/7 or visit a branch</h1>
                         <p>Interdum various quisque mattis elit quam posuere odio sagittisve aliquam a imperdiet ante sed mollis libero maecenas egestaudin morbi arc.</p>
                         <button class="btn btn-default px-5 py-2">Get started Now </button>
                     </div>
-                    <div class=" title col-md-5">
+                    <div class=" title col-xl-5 col-md-8 col-sm-12">
                         <div class="add ">
                             <div class="border-bottom">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
@@ -317,7 +325,7 @@
 
                             <div class="border-bottom">
                                 <i class="fa fa-telegram" aria-hidden="true"></i>
-                                <span>4451 Jatt Lane Irvin, CA 92614</span>
+                                <span>4451 Jatt Lane Irvin, CA </span>
                             </div>
                         </div>
                     </div>
@@ -332,7 +340,7 @@
 
 
         <!---------Testimonial section start-------------->
-        <section class="section-6">
+        <section class="section-6  ">
             <div class="container">
 
                 <div class="heading-2 text-center ">
@@ -342,12 +350,13 @@
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+
+                    <div class=" col-xl-6 col-md-12 col-sm-12 mb-4">
                         <div class="card">
                             <div class="card-body">
                                 <h6>By Admin</h6>
-                                <h2>More Then 100 Planners,</h2>
-                                <h2>One Philosophy</h2>
+                                <h4 class="card-text">More Then 100 Planners,</h4>
+                                <h4 class="card-text">One Philosophy</h4>
                                 <i class="fa fa-calendar-o" aria-hidden="true"></i><span>25 APRIL,2007</span><i class="fa fa-comment-o" aria-hidden="true"></i><span>(08)</span>
                                 <p>
                                     aliquam sed at sollicitudin tellus aliquam imperdiet is rumdui id nisi blandit non lorem tollus allquam imperdiet is sem remdui sollicitudin semeque lorem'ipsum derons libero nisi vitae elit ullampur mauris vitae dignissim suscipit lorem.
@@ -358,12 +367,12 @@
                     </div>
 
 
-                    <div class="col-md-6">
+                    <div class=" col-xl-6 col-md-12 col-sm-12">
                         <div class="card">
                             <div class="card-body">
                                 <h6>By Admin</h6>
-                                <h2>The Expert Openien We</h2>
-                                <h2>Recommendation</h2>
+                                <h4 class="card-text">The Expert Openien We</h4>
+                                <h4 class="card-text">Recommendation</h4>
                                 <i class="fa fa-calendar-o" aria-hidden="true"></i><span>25 april,2007</span><i class="fa fa-comment-o" aria-hidden="true"></i><span>(08)</span>
                                 <p>Proin inte llus inil bro iacu lis rhon cus.urab itur a dic tum libe roeu emes elem en tum leoiv amus dapi bus torto rsed bibe ndum ull an corp envel its scele risque feli sid pellen tesque era tull pos uere. tesque era
                                     tull pos uere.</p>
@@ -371,6 +380,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -384,7 +394,7 @@
         <section class="footer-section">
             <div class="container">
                 <div class="row ">
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 mb-5">
 
                         <h3>Contact Info</h3>
                         <!-----contact info-->
@@ -408,7 +418,7 @@
 
 
                     <!------------Quick links----------->
-                    <div class=" quick-links col-md-3">
+                    <div class=" quick-links col-md-4 col-sm-6">
                         <h3 id="demo">Quick Links</h3>
                         <ul>
                             <li><i class="fa fa-angle-right" aria-hidden="true"></i> Home</li>
@@ -416,7 +426,7 @@
 
                                 <div></div>
                             </div>
-                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>services
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i>Services
                             </li>
                             <div class="myDiv">
 
@@ -440,23 +450,23 @@
                     </div>
 
                     <!---------social media links-------------->
-                    <div class="  col-md-3 pl-0">
+                    <div class="  col-md-4 pl-0 col-sm-6">
                         <h3>Follow Us On</h3>
                         <div class="social-links">
                             <ul>
                                 <li><i class="fa fa-facebook-square" aria-hidden="true"></i>facebook</li>
                                 <li><i class="fa fa-twitter-square" aria-hidden="true"></i>twitter</li>
-                                <li> <i class="fa fa-google-plus-square" aria-hidden="true"></i>google-plus</li>
+                                <!--  <li> <i class="fa fa-google-plus-square" aria-hidden="true"></i>google-plus</li> -->
                             </ul>
                         </div>
                     </div>
                     <!------------news letter information----------->
-                    <div class="newsletter col-md-3">
+                    <!--   <div class="newsletter col-md-3 col-sm-6">
                         <h3>Newsletter</h3>
                         <p class="text-muted">subscribe our email newsletter today to receive updates</p>
                         <input type="text" class="form-control bg-dark text-white" placeholder="Enter Email Address">
                         <button class=" btn btn-default ">SUBSCRIBE</button>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
